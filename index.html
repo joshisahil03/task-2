@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sahil Joshi — Portfolio</title>
+  <meta name="description" content="Software Engineering Student | Java, Spring Boot, React Developer. Portfolio and projects by Sahil Joshi." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#" class="brand">
+        <span class="brand-mark">SJ</span>
+        <span class="brand-text">Sahil Joshi</span>
+      </a>
+      <button id="navToggle" class="nav-toggle">☰</button>
+      <nav id="primaryNav" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Hi, I'm <span class="accent">Sahil Joshi</span></h1>
+          <p class="tagline">Software Engineering Student | Java, Spring Boot, React Developer</p>
+          <p>I love building scalable applications and creative web solutions. Below are some of my works.</p>
+          <div class="actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/avatar.svg" width="320" height="320" alt="Avatar for Sahil Joshi" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a Software Engineering student passionate about backend APIs and modern frontend experiences.
+          I work with <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>React</strong>, and <strong>SQL</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>SmartAI</h3>
+            <p>An AI-powered assistant app with context memory and clean UI.</p>
+          </article>
+          <article class="card">
+            <h3>Chat App</h3>
+            <p>Real-time chat with WebSockets, typing indicators, and room support.</p>
+          </article>
+          <article class="card">
+            <h3>Anime Art</h3>
+            <p>Anime-style art gallery with responsive design and smooth transitions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Let's connect! Reach me through:</p>
+        <ul class="contact-list">
+          <li><a href="mailto:sahil.joshi@example.com">sahil.joshi@example.com</a></li>
+          <li><a href="https://linkedin.com/in/sahil-joshi" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/sahiljoshi" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Sahil Joshi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
